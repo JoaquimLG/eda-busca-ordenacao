@@ -11,6 +11,18 @@ public class Estudante implements Comparable<Estudante>{
         this.matricula = matricula;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public int getNota() {
+        return nota;
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
     @Override
     public int compareTo(Estudante outro) {
 
@@ -21,7 +33,7 @@ public class Estudante implements Comparable<Estudante>{
 
         //2. Nome crescente
         int comparacaoNome = this.nome.compareTo(outro.nome);
-        if(this.nome != outro.nome){
+        if(comparacaoNome != 0){
             return comparacaoNome;
         }
 
@@ -31,6 +43,6 @@ public class Estudante implements Comparable<Estudante>{
 
     @Override
     public String toString() {
-        return String.format("Matricula: %d, Nome: %s, Nota: %d", matricula,nome,nota);
+        return String.format("%s (Matrícula: %d, Nota: %d)", nome, matricula, nota);
     }
 }
