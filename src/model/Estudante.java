@@ -43,6 +43,6 @@ public class Estudante implements Comparable<Estudante>{
 
     @Override
     public String toString() {
-        return String.format("%s (Matrícula: %d, Nota: %d)", nome, matricula, nota);
+        return String.format("%s (Nota: %d, Matricula: %d)", nome, nota, matricula);
     }
 }
