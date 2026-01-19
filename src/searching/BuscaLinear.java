@@ -3,7 +3,7 @@ package searching;
 import model.Estudante;
 
 public class BuscaLinear {
-    public static Estudante buscaLinearInterativa(Estudante[] vetor, int matricula){
+    public static Estudante buscaLinearIterativa(Estudante[] vetor, int matricula){
         int n = vetor.length;
 
         for (Estudante estudante : vetor) {

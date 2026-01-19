@@ -3,7 +3,7 @@ package searching;
 import model.Estudante;
 
 public class BuscaBinaria {
-    public static Estudante buscaBinariaInterativa (Estudante[] vetor, int matricula){
+    public static Estudante buscaBinariaIterativa(Estudante[] vetor, int matricula){
         int inicio = 0;
         int fim = vetor.length - 1;
 
