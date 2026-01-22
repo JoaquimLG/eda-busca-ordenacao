@@ -98,6 +98,7 @@ Para executar o projeto localmente, é necessário:
 - Código limpo e organizado por pacotes
 - Métodos com responsabilidades bem definidas
 - Estrutura pensada para facilitar futuras extensões
+- Uso de boas práticas de versionamento, seguindo um padrão de mensagens de commits claras e semânticas
 
 ---
 
