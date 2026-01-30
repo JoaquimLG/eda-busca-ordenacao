@@ -22,6 +22,9 @@ O programa está dividido nos seguintes pacotes principais:
 - **sorting**  
   Reúne as implementações dos algoritmos de ordenação, permitindo analisar diferentes estratégias e comportamentos.
 
+- **ui**  
+  Contém a classe ConsoleUI, responsável exclusivamente pela entrada e saída de dados, exibição de menus, interação com o usuário via terminal e controle de fluxo de execução do programa.
+  
 - **utils**  
   Contém classes utilitárias de apoio ao funcionamento do sistema, como geração de dados e funções auxiliares.
 
@@ -78,7 +81,8 @@ Para executar o projeto localmente, é necessário:
 - Compreender o funcionamento interno dos algoritmos de busca e ordenação;
 - Comparar diferentes abordagens e estratégias;
 - Praticar organização de código em pacotes;
-- Desenvolver raciocínio lógico e algorítmico em Java.
+- Desenvolver raciocínio lógico e algorítmico em Java;
+- Desenvolver habilidades de versionamento e boas práticas.
 
 ---
 
